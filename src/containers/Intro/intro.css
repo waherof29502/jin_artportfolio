@@ -1,0 +1,81 @@
+.jindev__intro {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  background: var(--color-footer);
+}
+
+.jindev__intro-feature {
+  display: flex;
+}
+
+/* Customizing feature component as per needs */
+.jindev__intro-feature .jindev__features-container__feature {
+  margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.jindev__intro-feature .jindev__features-container_feature-text {
+  max-width: 700px;
+}
+
+.jindev__intro-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 4rem 0 2rem;
+}
+
+.jindev__intro-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+}
+
+.jindev__intro-heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+
+.jindev__intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.jindev__intro-container .jindev__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.jindev__intro-container .jindev__features-container_feature-text {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .jindev__intro-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .jindev__intro-heading p {
+    margin-top: 1rem;
+  }
+}
