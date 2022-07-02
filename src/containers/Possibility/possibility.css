@@ -13,6 +13,7 @@
 }
 
 .jindev__possibility-image img {
+  border-radius: 14px;
   width: 100%;
   height: 100%;
 }

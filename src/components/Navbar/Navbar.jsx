@@ -29,7 +29,6 @@ const Navbar = () => {
         </div>
       </div>
       <div className='jindev__navbar-sign'>
-        <p>Sign in</p>
         <button type='button'>Sign up</button>
       </div>
       <div className='jindev__navbar-menu'>
@@ -63,7 +62,6 @@ const Navbar = () => {
               </p>
             </div>
             <div className='jindev__navbar-menu_container-links-sign'>
-              <p>Sign in</p>
               <button type='button'>Sign up</button>
             </div>
           </div>

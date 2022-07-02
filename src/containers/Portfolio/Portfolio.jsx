@@ -28,32 +28,32 @@ const Portfolio = () => (
         <Cards
           imgUrl={blog02}
           text='We Are Human_We Are Posthuman'
-          date='Sep 26, 2021'
+          date='Dec 20, 2018'
         />
         <Cards
           imgUrl={blog03}
           text='We Are Machine_Machine Like Us'
-          date='Sep 26, 2021'
+          date='Jan 07, 2019'
         />
         <Cards
           imgUrl={blog04}
           text='We Are Data_ The Digital shell .JPG'
-          date='Sep 26, 2021'
+          date='Mar 26, 2019'
         />
         <Cards
           imgUrl={blog05}
           text='We Are Data_Ghost In The Machine'
-          date='Sep 26, 2021'
+          date='Aug 01, 2019'
         />
         <Cards
           imgUrl={blog06}
           text='We Are Machine_In Digital Prison'
-          date='Sep 26, 2021'
+          date='Sep 03, 2019'
         />
         <Cards
           imgUrl={blog07}
           text='Mind Graffiti_My Fantasy World'
-          date='Sep 26, 2021'
+          date='Sep 26, 2017'
         />
       </div>
     </div>

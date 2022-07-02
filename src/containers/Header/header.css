@@ -1,6 +1,6 @@
 .jindev__header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .jindev__header-content {
@@ -10,7 +10,8 @@
   align-items: flex-start;
   flex-direction: column;
 
-  margin-right: 5rem;
+  margin-right: 42rem;
+  margin-bottom: 6rem;
 }
 
 .jindev__header-content h1 {
@@ -19,6 +20,7 @@
   font-size: 62px;
   line-height: 75px;
   letter-spacing: -0.04em;
+  margin-top: 5rem;
 }
 
 .jindev__header-content p {
@@ -76,7 +78,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.jindev__header-content__people {
+/* .jindev__header-content__people {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -84,14 +86,14 @@
   flex-direction: row;
 
   margin-top: 2rem;
-}
+} */
 
-.jindev__header-content__people img {
+/* .jindev__header-content__people img {
   width: 181.79px;
   height: 38px;
-}
+} */
 
-.jindev__header-content__people p {
+/* .jindev__header-content__people p {
   margin: 0 0 0 1rem;
   font-family: var(--font-family);
   font-weight: 500;
@@ -99,13 +101,17 @@
   line-height: 38px;
   color: #fff;
   text-align: center;
-}
+} */
 
 .jindev__header-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.65;
+  z-index: -1;
 }
 
 .jindev__header-image img {

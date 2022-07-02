@@ -10,24 +10,17 @@ const Header = () => (
 
       <p>
         Human body reflects consciousness as existence of being in world which
-        truly spiritually connects "I" with the environment. Based on AI
-        technology development inspired, the works are presented to explore by
-        human-machine Interaction.
+        truly spiritually connects "I" with the environment.
       </p>
 
       {/* <div className='jindev__header-content__input'>
-        <input type='email' placeholder='Your Email Address' />
-        <button type='button'>Get Started</button>
+        <input type='email' placeholder='Get In Contact' />
+        <button type='button'>Submit</button>
       </div> */}
-
-      {/* <div className='jindev__header-content__people'>
-        
-        <p>1,600 people requested access a visit in last 24 hours</p>
-      </div>*/}
     </div>
 
     <div className='jindev__header-image'>
-      <img src={ai} />
+      <img src={bg} />
     </div>
   </div>
 );

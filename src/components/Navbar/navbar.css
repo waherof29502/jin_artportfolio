@@ -4,6 +4,7 @@
   align-items: center;
 
   padding: 2rem 6rem;
+  z-index: 99;
 }
 
 .jindev__navbar-links {
@@ -20,8 +21,8 @@
 .jindev__navbar-links_logo img {
   /* width: 340px;
   height: 55px; */
-  width: 345px;
-  height: 60px;
+  width: 40%;
+  height: 40%;
 }
 
 .jindev__navbar-links_container {
@@ -52,8 +53,8 @@
 .jindev__navbar-sign button,
 .jindev__navbar-menu_container button {
   padding: 0.5rem 1rem;
-  color: #fff;
-  background: #ff4820;
+  color: #000;
+  background: #dccf1f;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
