@@ -13,12 +13,15 @@ const Possibility = () => (
         The possibilities are <br /> beyond your imagination
       </h1>
       <p>
-        Yet bed any for travelling assistance indulgence unpleasing. Not
-        thoughts all exercise blessing. Indulgence way everything joy alteration
-        boisterous the attachment. Party we years to order allow asked of.
+        AI changes the way we think. It changes the way we create. At the same
+        time, it brings artist many possibilities on personal creation.
       </p>
-      <a href='/' target='_blank'>
-        <h4>Request Early Access to Get Started</h4>
+      <a
+        href='http://jinwangartist.com/files/studyplan.pdf'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <h4>Generative Art, Deep Learning</h4>
       </a>
     </div>
   </div>

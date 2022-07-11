@@ -20,9 +20,24 @@ const Intro = () => {
         </p>
       </div>
       <div className='jindev__intro-container'>
-        <Feature title='Blog' text='text is here' />
-        <Feature title='Portfolio' text='text is here' />
-        <Feature title='Proposal' text='text is here' />
+        <Feature
+          title='Blog'
+          href='https://jinwang.atjhouse.com/'
+          target='_blank'
+          text='Machine Learning, Deep Learning, AI'
+        />
+        <Feature
+          title='Portfolio'
+          href='http://jinwangartist.com/files/maportfolio.pdf'
+          target='_blank'
+          text='Interactive Media, Visual Art'
+        />
+        <Feature
+          title='Proposal'
+          href='http://jinwangartist.com/files/mapaper.pdf'
+          target='_blank'
+          text='AI, Philosophy, Photography '
+        />
       </div>
     </div>
   );

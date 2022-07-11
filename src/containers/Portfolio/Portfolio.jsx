@@ -1,14 +1,6 @@
 import React from 'react';
 import { Cards } from '../../components';
-import {
-  blog01,
-  blog02,
-  blog03,
-  blog04,
-  blog05,
-  blog06,
-  blog07,
-} from './imports';
+import { blog02, blog03, blog04, blog05, blog06, blog07 } from './imports';
 import './portfolio.css';
 
 const Portfolio = () => (
@@ -21,7 +13,7 @@ const Portfolio = () => (
         <Article
           imgUrl={portfolio01}
           date='Sep 26, 2021'
-          text='GPT-3 and Open  AI is the future. Let us exlore how it is?'
+          text=''
         />
       </div> */}
       <div className='jindev__portfolio-container_groupB'>

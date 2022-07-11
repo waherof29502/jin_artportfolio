@@ -31,12 +31,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  color: #71e5ff;
+  color: var(--color-text);
 }
-
+/* 
 .jindev__possibility-content h4:last-child {
   color: #ff8a71;
-}
+} */
 
 .jindev__possibility-content h1 {
   font-family: var(--font-family);
@@ -47,7 +47,7 @@
 }
 
 .jindev__possibility-content p {
-  color: var(--color-text);
+  color: #71e5ff;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;

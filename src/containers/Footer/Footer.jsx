@@ -15,28 +15,60 @@ const Footer = () => {
       <div className='jindev__footer-links'>
         <div className='jindev__footer-links_logo'>
           <img src={jinLogo} alt='logo' />
-          <p>
-            Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
-          </p>
         </div>
         <div className='jindev__footer-links_div'>
           <h4>Categories</h4>
-          <p>Graphic Design</p>
-          <p>New Media Art</p>
-          <p>Photography</p>
-          <p>Interactive Art</p>
+          <a
+            href='http://jinwangartist.com/files/graphicdesign.pdf'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p>Graphic Design</p>
+          </a>
+          <a
+            href='http://jinwangartist.com/files/baportfolio.pdf'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p>Bachelor's portfolio</p>
+          </a>
+          <a
+            href='http://jinwangartist.com/files/maportfolio.pdf'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p>Master's portfolio</p>
+          </a>
+          <a
+            href='https://flickr.com/photos/184697159@N06/albums'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p>Photography</p>
+          </a>
         </div>
 
         <div className='jindev__footer-links_div'>
           <h4>Archives</h4>
-          <p>Medium Proposal</p>
-          <p>Final Proposal</p>
-          <p>Study Proposal</p>
+          <a
+            href='http://jinwangartist.com/files/mapaper.pdf'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p>Master Proposal</p>
+          </a>
+          <a
+            href='http://jinwangartist.com/files/studyplan.pdf'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <p>Study Proposal</p>
+          </a>
         </div>
 
         <div className='jindev__footer-links_div'>
           <h4>Get in touch</h4>
-          <p></p>
+
           <p>info@jinwangartist.com</p>
         </div>
       </div>

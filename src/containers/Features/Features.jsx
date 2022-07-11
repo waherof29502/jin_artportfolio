@@ -4,16 +4,16 @@ import './features.css';
 
 const FeaturesData = [
   {
-    title: 'title01',
-    text: 'text01',
+    title: 'Metaverse',
+    text: 'Metaverse is a platform that allows you to create a virtual world where you can interact with other people and create your own world.',
   },
   {
-    title: 'title02',
-    text: 'text02',
+    title: 'Deep Fake',
+    text: 'Deep Fake is a technique that uses AI to create a fake person',
   },
   {
-    title: 'title03',
-    text: 'text03',
+    title: 'NFT',
+    text: 'NFT(Non-fungible token) is a token that represents the ownership of a person',
   },
 ];
 
@@ -24,7 +24,7 @@ const Features = () => {
         <h1 className='gradient__text'>
           The Future is Now and You Need to Realize
         </h1>
-        <p>Request Early Access to Get Started</p>
+        {/* <p>Request Early Access to Get Started</p> */}
       </div>
       <div className='gpt3__features-container'>
         {FeaturesData.map((item, index) => (

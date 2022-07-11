@@ -7,7 +7,8 @@ import {
   Intro,
   Header,
 } from './containers';
-import { Jin, Brand, Navbar } from './components';
+import { Jin, Navbar } from './components';
+
 import './App.css';
 
 const App = () => {

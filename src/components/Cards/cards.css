@@ -46,10 +46,13 @@
   margin-bottom: 0.2rem;
   cursor: pointer;
 }
-
-.jindev__blog-container_article-content p:last-child {
-  cursor: pointer;
+.jindev__blog-container_article-content h3:hover {
+  color: #dcce20;
 }
+
+/* .jindev__blog-container_article-content p:last-child {
+  cursor: pointer;
+} */
 
 @media screen and (max-width: 550px) {
   .jindev__blog-container_article-content h3 {

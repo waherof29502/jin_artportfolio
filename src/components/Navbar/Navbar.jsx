@@ -29,7 +29,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className='jindev__navbar-sign'>
-        <button type='button'>Sign up</button>
+        <button
+          type='button'
+          onClick={() =>
+            (window.location.href = 'http://cv20.jinwangartist.com/')
+          }
+        >
+          Jin Wang
+        </button>
       </div>
       <div className='jindev__navbar-menu'>
         {toggleMenu ? (

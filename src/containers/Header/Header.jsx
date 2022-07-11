@@ -1,6 +1,6 @@
 import React from 'react';
 import bg from '../../assets/bg01.jpg';
-import ai from '../../assets/ai.png';
+
 import './header.css';
 
 const Header = () => (
@@ -20,7 +20,7 @@ const Header = () => (
     </div>
 
     <div className='jindev__header-image'>
-      <img src={bg} />
+      <img src={bg} alt='jin_bg' />
     </div>
   </div>
 );
