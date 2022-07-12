@@ -119,6 +119,12 @@
 }
 
 @media screen and (max-width: 550px) {
+  .jindev__navbar-links_logo img {
+    /* width: 340px;
+    height: 55px; */
+    width: 60%;
+    height: 60%;
+  }
   .jindev__navbar {
     padding: 2rem;
   }
